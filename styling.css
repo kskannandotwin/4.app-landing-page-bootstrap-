@@ -38,6 +38,28 @@
   background-color: rgba(145, 82, 58);
 }
 
+/* center align elements in the trial section and paddings*/
+.trial {
+  text-align: center;
+  padding: 20px 0 40px 0;
+  color: black;
+}
+
+/* set size of images and add space between them */
+.trial img {
+  width: 200px;
+  height: 70px;
+  margin: 20px;
+}
+
+/* style footer */
+.footer {
+  background-color: #eee;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+
 /* add styling for devices between 480px and 768px */
 @media (min-width: 480px) and (max-width: 768px) {
   .jumbotron {
@@ -86,5 +108,11 @@
 
   .featured {
     text-align: center;
+  }
+
+  .trial img {
+    width: 100px;
+    height: 35px;
+    margin: 10px;
   }
 }
